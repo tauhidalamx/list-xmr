@@ -23,9 +23,9 @@ make
 
 
 # Option 2: Command-Line (Quick Fix)
-# Run XMRig with 3 threads at 80% usage using --threads=4 and --cpu-max-threads-hint=80:
+# Run XMRig with 3 threads at 75% usage using --threads=4 and --cpu-max-threads-hint=75:
 
-./xmrig -o rx.unmineable.com:3333 -a rx -k --threads=3 --cpu-max-threads-hint=80 -u XMR:46AEHQwkApgAJ6HpGoYsKFELrSytXbn5nhsMkUFwxNm9UnHWBiAoiPJRS8MnHSGXv3aw1FD3pRMU1AmUKFrKST2iV2wm56H.tauhidxv
+./xmrig -o rx.unmineable.com:3333 -a rx -k --threads=3 --cpu-max-threads-hint=75 -u XMR:46AEHQwkApgAJ6HpGoYsKFELrSytXbn5nhsMkUFwxNm9UnHWBiAoiPJRS8MnHSGXv3aw1FD3pRMU1AmUKFrKST2iV2wm56H.tauhidxv
 
 
 # To limit XMRig to 3 threads while using your current mining command, simply add the --threads=3 flag like this:
