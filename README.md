@@ -16,6 +16,12 @@ cmake -DWITH_HWLOC=OFF ..
 cmake ..
 make
 
+
+default for 4 core please use this 
+
+./xmrig -o rx.unmineable.com:3333 -a rx -k --threads=3 --cpu-priority=2 -u XMR:46AEHQwkApgAJ6HpGoYsKFELrSytXbn5nhsMkUFwxNm9UnHWBiAoiPJRS8MnHSGXv3aw1FD3pRMU1AmUKFrKST2iV2wm56H.tauhidxv
+
+
 # Option 1: Command-Line (Quick Fix)
 # Run XMRig with 4 threads at 80% usage using --threads=4 and --cpu-max-threads-hint=80:
 
