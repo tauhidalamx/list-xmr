@@ -9,6 +9,10 @@ cd xmrig
 
 mkdir build && cd build
 
+# optional
+cmake -DWITH_HWLOC=OFF ..
+-------------------------------------------
+
 cmake ..
 make
 
